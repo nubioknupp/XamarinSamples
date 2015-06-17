@@ -1,0 +1,8 @@
+D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\bin\iPhoneSimulator\Debug\ExerciseXamarinIOS.exe
+D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\bin\iPhoneSimulator\Debug\ExerciseXamarinIOS.pdb
+D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\ibtool\MainStoryboard.storyboardc\Info.plist
+D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\ibtool\MainStoryboard.storyboardc\UIViewController-vXZ-lx-hvc.nib
+D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\ibtool\MainStoryboard.storyboardc\vXZ-lx-hvc-view-kh9-bI-dsS.nib
+D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\Default-568h@2x.png
+D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\ExerciseXamarinIOS.exe
+D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\ExerciseXamarinIOS.pdb
