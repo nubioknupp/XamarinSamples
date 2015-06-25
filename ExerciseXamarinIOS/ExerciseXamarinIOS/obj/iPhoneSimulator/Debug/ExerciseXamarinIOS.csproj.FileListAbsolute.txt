@@ -6,3 +6,4 @@ D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulat
 D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\Default-568h@2x.png
 D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\ExerciseXamarinIOS.exe
 D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\ExerciseXamarinIOS.pdb
+D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\ExerciseXamarinIOS.csprojResolveAssemblyReference.cache
