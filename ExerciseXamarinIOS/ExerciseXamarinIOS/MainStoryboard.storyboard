@@ -67,5 +67,6 @@
     </simulatedMetricsContainer>
     <resources>
         <image name="Default-568h.png" width="640" height="1136"/>
+        <image name="News.png" width="626" height="470"/>
     </resources>
 </document>
