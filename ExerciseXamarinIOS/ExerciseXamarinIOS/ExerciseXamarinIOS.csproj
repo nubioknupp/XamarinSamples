@@ -107,6 +107,8 @@
   <ItemGroup>
     <Content Include="Entitlements.plist" />
     <BundleResource Include="Resources\News.png" />
+    <BundleResource Include="Resources\News-50.png" />
+    <BundleResource Include="Resources\Geography Filled-50.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

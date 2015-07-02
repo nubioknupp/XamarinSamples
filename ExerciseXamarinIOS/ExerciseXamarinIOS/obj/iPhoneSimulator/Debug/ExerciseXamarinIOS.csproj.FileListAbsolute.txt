@@ -1,9 +1,13 @@
 D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\bin\iPhoneSimulator\Debug\ExerciseXamarinIOS.exe
 D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\bin\iPhoneSimulator\Debug\ExerciseXamarinIOS.pdb
 D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\ibtool\MainStoryboard.storyboardc\Info.plist
-D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\ibtool\MainStoryboard.storyboardc\UIViewController-vXZ-lx-hvc.nib
-D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\ibtool\MainStoryboard.storyboardc\vXZ-lx-hvc-view-kh9-bI-dsS.nib
 D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\Default-568h@2x.png
 D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\ExerciseXamarinIOS.exe
 D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\ExerciseXamarinIOS.pdb
 D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\ExerciseXamarinIOS.csprojResolveAssemblyReference.cache
+D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\ibtool\MainStoryboard.storyboardc\15-view-21.nib
+D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\ibtool\MainStoryboard.storyboardc\17-view-25.nib
+D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\ibtool\MainStoryboard.storyboardc\UIViewController-13.nib
+D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\News.png
+D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\News-50.png
+D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\Geography Filled-50.png
