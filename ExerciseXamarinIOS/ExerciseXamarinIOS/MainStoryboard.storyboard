@@ -25,7 +25,7 @@
         </scene>
         <scene sceneID="20">
             <objects>
-                <viewController id="15" sceneMemberID="viewController">
+                <viewController id="15" sceneMemberID="viewController" customClass="RootViewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8"/>
                         <viewControllerLayoutGuide type="bottom" id="9"/>
@@ -43,7 +43,7 @@
         </scene>
         <scene sceneID="24">
             <objects>
-                <viewController id="17" sceneMemberID="viewController">
+                <viewController id="17" sceneMemberID="viewController" customClass="RootViewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="10"/>
                         <viewControllerLayoutGuide type="bottom" id="11"/>
@@ -52,8 +52,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="33" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="59" y="120" width="160" height="240"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
                     </view>
                     <tabBarItem key="tabBarItem" title="Web" id="26" image="Safari-32.png" tag="0"/>
+                    <connections>
+                        <outlet property="myWebBrowser" destination="33" id="name-outlet-33"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="27" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

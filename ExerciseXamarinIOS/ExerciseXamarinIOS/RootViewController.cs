@@ -28,6 +28,8 @@ namespace ExerciseXamarinIOS
             base.ViewDidLoad();
 
             // Perform any additional setup after loading the view, typically from a nib.
+
+            myWebBrowser.LoadRequest(new NSUrlRequest(new NSUrl("http://comocriaraplicativos.com.br")));
         }
 
         public override void ViewWillAppear(bool animated)
