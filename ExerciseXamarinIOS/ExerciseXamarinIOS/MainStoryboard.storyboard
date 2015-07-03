@@ -35,7 +35,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="News" id="22" image="News-50.png"/>
+                    <tabBarItem key="tabBarItem" title="News" id="22" image="News-32.png"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="23" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -53,7 +53,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Web" id="26" image="Geography Filled-50.png" tag="0"/>
+                    <tabBarItem key="tabBarItem" title="Web" id="26" image="Safari-32.png" tag="0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="27" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -70,5 +70,7 @@
         <image name="News.png" width="456" height="374"/>
         <image name="News-50.png" width="50" height="50"/>
         <image name="Geography Filled-50.png" width="50" height="50"/>
+        <image name="News-32.png" width="32" height="32"/>
+        <image name="Safari-32.png" width="32" height="32"/>
     </resources>
 </document>

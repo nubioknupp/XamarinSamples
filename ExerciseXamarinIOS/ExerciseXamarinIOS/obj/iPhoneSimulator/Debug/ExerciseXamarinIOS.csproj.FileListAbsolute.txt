@@ -11,3 +11,5 @@ D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulat
 D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\News.png
 D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\News-50.png
 D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\Geography Filled-50.png
+D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\News-32.png
+D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\Safari-32.png
