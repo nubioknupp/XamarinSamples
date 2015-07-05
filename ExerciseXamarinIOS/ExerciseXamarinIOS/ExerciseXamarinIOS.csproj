@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-    <ProjectGuid>{EDE5BD98-DFA5-4205-85AA-344CC8FDB745}</ProjectGuid>
+    <ProjectGuid>{E85C38EE-2953-43DF-9B97-AE7C616B3587}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <RootNamespace>ExerciseXamarinIOS</RootNamespace>
@@ -106,9 +106,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Entitlements.plist" />
-    <BundleResource Include="Resources\News.png" />
-    <BundleResource Include="Resources\News-50.png" />
-    <BundleResource Include="Resources\Geography Filled-50.png" />
     <BundleResource Include="Resources\News-32.png" />
     <BundleResource Include="Resources\Safari-32.png" />
   </ItemGroup>

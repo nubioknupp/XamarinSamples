@@ -16,13 +16,13 @@ namespace ExerciseXamarinIOS
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UIWebView myWebBrowser { get; set; }
+		UIWebView web { get; set; }
 
 		void ReleaseDesignerOutlets ()
 		{
-			if (myWebBrowser != null) {
-				myWebBrowser.Dispose ();
-				myWebBrowser = null;
+			if (web != null) {
+				web.Dispose ();
+				web = null;
 			}
 		}
 	}
