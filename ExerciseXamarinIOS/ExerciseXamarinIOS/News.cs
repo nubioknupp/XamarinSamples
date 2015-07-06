@@ -14,6 +14,7 @@ namespace ExerciseXamarinIOS
         public News()
         {
         }
+
         public String Titulo { get; set; }
         public String Descricao { get; set; }
     }

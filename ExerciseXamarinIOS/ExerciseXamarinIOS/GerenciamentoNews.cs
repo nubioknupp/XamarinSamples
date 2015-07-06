@@ -11,10 +11,12 @@ namespace ExerciseXamarinIOS
 {
     public class GerenciamentoNews : UITableViewSource
     {
-        //public GerenciamentoNews(List<News>))
-        //{
+        List<News> News;
 
-        //}
+        public GerenciamentoNews(List<News> lstNews)
+        {
+            News = lstNews;
+        }
 
         public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
         {
