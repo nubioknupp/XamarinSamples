@@ -84,10 +84,16 @@
     <CodesignKey>iPhone Distribution</CodesignKey>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Celula.cs" />
+    <Compile Include="Celula.designer.cs">
+      <DependentUpon>Celula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GerenciamentoNews.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="GettingStarted.Xamarin" />
     <None Include="Info.plist" />
+    <Compile Include="News.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

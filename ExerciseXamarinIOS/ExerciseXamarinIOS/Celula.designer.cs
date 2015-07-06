@@ -11,26 +11,26 @@ using UIKit;
 
 namespace ExerciseXamarinIOS
 {
-	[Register ("RootViewController")]
-	partial class RootViewController
+	[Register ("Celula")]
+	partial class Celula
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UITableView lstNews { get; set; }
+		UILabel lblTitulo { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UIWebView web { get; set; }
+		UITextView txtDescricao { get; set; }
 
 		void ReleaseDesignerOutlets ()
 		{
-			if (lstNews != null) {
-				lstNews.Dispose ();
-				lstNews = null;
+			if (lblTitulo != null) {
+				lblTitulo.Dispose ();
+				lblTitulo = null;
 			}
-			if (web != null) {
-				web.Dispose ();
-				web = null;
+			if (txtDescricao != null) {
+				txtDescricao.Dispose ();
+				txtDescricao = null;
 			}
 		}
 	}
