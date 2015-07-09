@@ -49,7 +49,7 @@
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" minimumFontSize="10" id="45" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" preferredMaxLayoutWidth="0.0" numberOfLines="4" text="Título">
                                                     <rect key="frame" x="4" y="4" width="286" height="21"/>
                                                     <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="0"/>
-                                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
+                                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
                                                     <nil key="highlightedColor"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </label>
@@ -65,10 +65,10 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="58" key="tableHeaderView" fixedFrame="YES" text="Lorem ipsum dolor sit er elit lamet.">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="58" key="tableHeaderView" fixedFrame="YES" text="É importante para entender os eventos de toque e APIs e em um aplicativo iOS...">
                                                     <rect key="frame" x="4" y="25" width="286" height="48"/>
                                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     <color key="textColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
                                                 </textView>
@@ -85,7 +85,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="News" id="19" image="News-32.png"/>
                     <connections>
-                        <outlet property="lstNews" destination="35" id="name-outlet-35"/>
+                        <outlet property="tabNews" destination="35" id="name-outlet-35"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="20" userLabel="First Responder" sceneMemberID="firstResponder"/>

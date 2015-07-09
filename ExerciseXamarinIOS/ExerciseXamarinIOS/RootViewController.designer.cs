@@ -16,7 +16,7 @@ namespace ExerciseXamarinIOS
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UITableView lstNews { get; set; }
+		UITableView tabNews { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
@@ -24,9 +24,9 @@ namespace ExerciseXamarinIOS
 
 		void ReleaseDesignerOutlets ()
 		{
-			if (lstNews != null) {
-				lstNews.Dispose ();
-				lstNews = null;
+			if (tabNews != null) {
+				tabNews.Dispose ();
+				tabNews = null;
 			}
 			if (web != null) {
 				web.Dispose ();

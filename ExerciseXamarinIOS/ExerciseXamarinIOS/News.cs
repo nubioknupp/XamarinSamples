@@ -9,12 +9,11 @@ using UIKit;
 
 namespace ExerciseXamarinIOS
 {
-    class News
+    public class News
     {
         public News()
         {
         }
-
         public String Titulo { get; set; }
         public String Descricao { get; set; }
     }
