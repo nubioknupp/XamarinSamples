@@ -31,34 +31,41 @@ namespace ExerciseXamarinIOS
 
             // Perform any additional setup after loading the view, typically from a nib.
 
-            List<News> lstNewses = new List<News>();
-            News news = new News();
-
-            news.Titulo = "Touch no iOS";
-            news.Descricao = "É importante para entender os eventos de toque e APIs e em um aplicativo iOS, como eles sendo fundamentais para todas as interações físicas com o dispositivo. Todas as interações de toque envolvem um objeto UITouch. Neste texto, vamos aprender c..";
-
-            lstNewses.Add(news);
-
-            news.Titulo = "Introdução às Bibliotecas de Classes Portáteis";
-            news.Descricao = "Visão geral Um componente-chave da construção de aplicações multi-plataforma é a capacidade de compartilhar um código por meio de vários projetos específicos da plataforma. No entanto, isso é complicado pelo fato de que diferentes plataformas co...";
-
-            lstNewses.Add(news);
-
-            news.Titulo = "Crie apps para iOS usando o MAC in Cloud";
-            news.Descricao = "Muitos tem dificuldade de desenvolver apps para iOS pela necessidade de ter um MAC para compilar e testar as apps desenvolvidas com Xamarin. Agora a coisa ficou mais simples, o MAC in Cloud permite rodar o MAC na nuvem e você pode testar seus pr...";
-
-            lstNewses.Add(news);
-
-            GerenciamentoNews gerenciamentoNews = new GerenciamentoNews(lstNewses);
-
-            tabNews.Source = gerenciamentoNews;
-
-            //web.LoadRequest(new NSUrlRequest(new NSUrl("http://comocriaraplicativos.com.br")));
         }
 
         public override void ViewWillAppear(bool animated)
         {
             base.ViewWillAppear(animated);
+
+            if (tabNews != null)
+            {
+                List<News> lstNewses = new List<News>();
+                News news = new News();
+
+                news.Titulo = "Touch no iOS";
+                news.Descricao = "É importante para entender os eventos de toque e APIs e em um aplicativo iOS, como eles sendo fundamentais para todas as interações físicas com o dispositivo. Todas as interações de toque envolvem um objeto UITouch. Neste texto, vamos aprender c..";
+
+                lstNewses.Add(news);
+
+                news.Titulo = "Introdução às Bibliotecas de Classes Portáteis";
+                news.Descricao = "Visão geral Um componente-chave da construção de aplicações multi-plataforma é a capacidade de compartilhar um código por meio de vários projetos específicos da plataforma. No entanto, isso é complicado pelo fato de que diferentes plataformas co...";
+
+                lstNewses.Add(news);
+
+                news.Titulo = "Crie apps para iOS usando o MAC in Cloud";
+                news.Descricao = "Muitos tem dificuldade de desenvolver apps para iOS pela necessidade de ter um MAC para compilar e testar as apps desenvolvidas com Xamarin. Agora a coisa ficou mais simples, o MAC in Cloud permite rodar o MAC na nuvem e você pode testar seus pr...";
+
+                lstNewses.Add(news);
+
+                GerenciamentoNews gerenciamentoNews = new GerenciamentoNews(lstNewses);
+
+                tabNews.Source = gerenciamentoNews;
+            }
+
+            if (web != null)
+            {
+                web.LoadRequest(new NSUrlRequest(new NSUrl("http://comocriaraplicativos.com.br")));
+            }
         }
 
         public override void ViewDidAppear(bool animated)
