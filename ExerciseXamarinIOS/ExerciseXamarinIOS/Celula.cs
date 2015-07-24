@@ -18,6 +18,8 @@ namespace ExerciseXamarinIOS
         {
             lblTitulo.Text = vTitulo;
 
+            txtDescricao.Editable = false;
+
             if (vDescricao.Length > 86)
             {
                 txtDescricao.Text = vDescricao.Remove(87) + "...";

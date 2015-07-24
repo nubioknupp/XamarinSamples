@@ -30,15 +30,9 @@ namespace ExerciseXamarinIOS
             base.ViewDidLoad();
 
             // Perform any additional setup after loading the view, typically from a nib.
-
-        }
-
-        public override void ViewWillAppear(bool animated)
-        {
-            base.ViewWillAppear(animated);
-
             if (tabNews != null)
             {
+                //Teste List
                 List<News> lstNewses = new List<News>();
                 News news = new News();
 
@@ -58,9 +52,13 @@ namespace ExerciseXamarinIOS
                 lstNewses.Add(news);
 
                 GerenciamentoNews gerenciamentoNews = new GerenciamentoNews(lstNewses);
-
                 tabNews.Source = gerenciamentoNews;
             }
+        }
+
+        public override void ViewWillAppear(bool animated)
+        {
+            base.ViewWillAppear(animated);
 
             if (web != null)
             {
