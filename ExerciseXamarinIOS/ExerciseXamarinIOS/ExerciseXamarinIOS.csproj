@@ -88,19 +88,27 @@
     <Compile Include="Celula.designer.cs">
       <DependentUpon>Celula.cs</DependentUpon>
     </Compile>
+    <Compile Include="DetalheViewController.cs" />
+    <Compile Include="DetalheViewController.designer.cs">
+      <DependentUpon>DetalheViewController.cs</DependentUpon>
+    </Compile>
     <Compile Include="GerenciamentoNews.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="WebViewController.cs" />
+    <Compile Include="WebViewController.designer.cs">
+      <DependentUpon>WebViewController.cs</DependentUpon>
+    </Compile>
     <None Include="GettingStarted.Xamarin" />
     <None Include="Info.plist" />
     <Compile Include="News.cs" />
+    <Compile Include="NewsViewController.cs" />
+    <Compile Include="NewsViewController.designer.cs">
+      <DependentUpon>NewsViewController.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="RootViewController.designer.cs">
-      <DependentUpon>RootViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="RootViewController.cs" />
     <InterfaceDefinition Include="MainStoryboard.storyboard" />
     <BundleResource Include="Resources\Default-568h%402x.png" />
   </ItemGroup>

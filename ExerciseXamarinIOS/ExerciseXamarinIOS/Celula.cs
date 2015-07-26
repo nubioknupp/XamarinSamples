@@ -14,10 +14,10 @@ namespace ExerciseXamarinIOS
         {
         }
 
-        public void MontaCelula(String vTitulo, String vDescricao)
+        public void MontaCelula(int vId, String vTitulo, String vDescricao)
         {
             lblTitulo.Text = vTitulo;
-
+            lblID.Text = vId.ToString();
             txtDescricao.Editable = false;
 
             if (vDescricao.Length > 86)

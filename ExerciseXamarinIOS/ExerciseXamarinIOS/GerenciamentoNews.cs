@@ -17,8 +17,9 @@ namespace ExerciseXamarinIOS
         public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
         {
             Celula myCell = (Celula)tableView.DequeueReusableCell("cellNews");
-            myCell.MontaCelula(myListNewses[0].Titulo.ToString(),
-                    myListNewses[0].Descricao.ToString());
+            myCell.MontaCelula(myListNewses[indexPath.Row].Id,
+                                myListNewses[indexPath.Row].Titulo.ToString(),
+                                myListNewses[indexPath.Row].Descricao.ToString());
             return myCell;
         }
 

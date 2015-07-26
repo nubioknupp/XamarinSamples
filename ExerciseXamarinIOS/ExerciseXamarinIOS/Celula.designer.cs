@@ -16,6 +16,10 @@ namespace ExerciseXamarinIOS
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
+		UILabel lblID { get; set; }
+
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
 		UILabel lblTitulo { get; set; }
 
 		[Outlet]
@@ -24,6 +28,10 @@ namespace ExerciseXamarinIOS
 
 		void ReleaseDesignerOutlets ()
 		{
+			if (lblID != null) {
+				lblID.Dispose ();
+				lblID = null;
+			}
 			if (lblTitulo != null) {
 				lblTitulo.Dispose ();
 				lblTitulo = null;
