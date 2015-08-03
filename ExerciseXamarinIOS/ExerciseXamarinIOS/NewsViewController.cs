@@ -127,6 +127,7 @@ namespace ExerciseXamarinIOS
                     var rowPathNews = tableNews.IndexPathForSelectedRow;
                     var news = sourceNews.GetNews(rowPathNews.Row);
                     detail.SetNews(news);
+                    newsNav.BackBarButtonItem.Title = "";
                 }
             }
 

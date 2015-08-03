@@ -16,10 +16,18 @@ namespace ExerciseXamarinIOS
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
+		UINavigationItem newsNav { get; set; }
+
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
 		UITableView tableNews { get; set; }
 
 		void ReleaseDesignerOutlets ()
 		{
+			if (newsNav != null) {
+				newsNav.Dispose ();
+				newsNav = null;
+			}
 			if (tableNews != null) {
 				tableNews.Dispose ();
 				tableNews = null;

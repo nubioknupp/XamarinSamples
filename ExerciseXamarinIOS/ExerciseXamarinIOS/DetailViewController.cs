@@ -34,15 +34,19 @@ namespace ExerciseXamarinIOS
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-
             // Perform any additional setup after loading the view, typically from a nib.
         }
 
         public override void ViewWillAppear(bool animated)
         {
             base.ViewWillAppear(animated);
+
+            //Screen
+            Title = currentNews.Title;
+
             lblTitle.Text = currentNews.Title;
             lblDescription.Text = currentNews.Description;
+            
         }
 
         public override void ViewDidAppear(bool animated)

@@ -16,17 +16,11 @@ namespace ExerciseXamarinIOS
 
         public void SetCell(String vTitulo, String vDescricao)
         {
+            lblTitle.TextAlignment = UITextAlignment.Justified;
             lblTitle.Text = vTitulo;
-            txtDescription.Editable = false;
 
-            if (vDescricao.Length > 86)
-            {
-                txtDescription.Text = vDescricao.Remove(87) + "...";
-            }
-            else
-            {
-                txtDescription.Text = vDescricao;
-            }
+            lblDescription.TextAlignment = UITextAlignment.Justified;
+            lblDescription.Text = vDescricao;
         }
 
     }
