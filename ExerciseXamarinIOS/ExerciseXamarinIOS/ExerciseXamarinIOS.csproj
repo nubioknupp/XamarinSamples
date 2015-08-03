@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-    <ProjectGuid>{E85C38EE-2953-43DF-9B97-AE7C616B3587}</ProjectGuid>
+    <ProjectGuid>{959480EA-1AAE-4DF8-B5C3-B3B7A4E44427}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <RootNamespace>ExerciseXamarinIOS</RootNamespace>
@@ -84,17 +84,17 @@
     <CodesignKey>iPhone Distribution</CodesignKey>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Celula.cs" />
-    <Compile Include="Celula.designer.cs">
-      <DependentUpon>Celula.cs</DependentUpon>
+    <Compile Include="Cell.cs" />
+    <Compile Include="Cell.designer.cs">
+      <DependentUpon>Cell.cs</DependentUpon>
     </Compile>
-    <Compile Include="DetalheViewController.cs" />
-    <Compile Include="DetalheViewController.designer.cs">
-      <DependentUpon>DetalheViewController.cs</DependentUpon>
+    <Compile Include="DetailViewController.cs" />
+    <Compile Include="DetailViewController.designer.cs">
+      <DependentUpon>DetailViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="GerenciamentoNews.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="TableSourceNews.cs" />
     <Compile Include="WebViewController.cs" />
     <Compile Include="WebViewController.designer.cs">
       <DependentUpon>WebViewController.cs</DependentUpon>

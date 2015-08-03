@@ -7,14 +7,16 @@ using UIKit;
 
 namespace ExerciseXamarinIOS
 {
-    public partial class DetalheViewController : UIViewController
+    public partial class DetailViewController : UIViewController
     {
+
+        private News currentNews;
         static bool UserInterfaceIdiomIsPhone
         {
             get { return UIDevice.CurrentDevice.UserInterfaceIdiom == UIUserInterfaceIdiom.Phone; }
         }
 
-        public DetalheViewController(IntPtr handle)
+        public DetailViewController(IntPtr handle)
             : base(handle)
         {
         }
@@ -39,6 +41,8 @@ namespace ExerciseXamarinIOS
         public override void ViewWillAppear(bool animated)
         {
             base.ViewWillAppear(animated);
+            lblTitle.Text = currentNews.Title;
+            lblDescription.Text = currentNews.Description;
         }
 
         public override void ViewDidAppear(bool animated)
@@ -57,5 +61,10 @@ namespace ExerciseXamarinIOS
         }
 
         #endregion
+
+        public void SetNews(News news)
+        {
+            currentNews = news;
+        }
     }
 }

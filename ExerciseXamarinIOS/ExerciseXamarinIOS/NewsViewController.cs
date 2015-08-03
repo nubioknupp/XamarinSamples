@@ -10,6 +10,8 @@ namespace ExerciseXamarinIOS
 {
     public partial class NewsViewController : UIViewController
     {
+        public int IdNews { get; set; }
+
         static bool UserInterfaceIdiomIsPhone
         {
             get { return UIDevice.CurrentDevice.UserInterfaceIdiom == UIUserInterfaceIdiom.Phone; }
@@ -17,6 +19,10 @@ namespace ExerciseXamarinIOS
 
         public NewsViewController(IntPtr handle)
             : base(handle)
+        {
+        }
+
+        public NewsViewController()
         {
         }
 
@@ -42,29 +48,29 @@ namespace ExerciseXamarinIOS
                 News news = new News();
 
                 news.Id = 1;
-                news.Titulo = "Touch no iOS";
-                news.Descricao = "É importante para entender os eventos de toque e APIs e em um aplicativo iOS, como eles sendo fundamentais para todas as interações físicas com o dispositivo. Todas as interações de toque envolvem um objeto UITouch. Neste texto, vamos aprender c..";
+                news.Title = "Touch no iOS";
+                news.Description = "É importante para entender os eventos de toque e APIs e em um aplicativo iOS, como eles sendo fundamentais para todas as interações físicas com o dispositivo. Todas as interações de toque envolvem um objeto UITouch. Neste texto, vamos aprender c..";
 
                 lstNewses.Add(news);
 
                 news = new News();
 
                 news.Id = 2;
-                news.Titulo = "Introdução às Bibliotecas de Classes Portáteis";
-                news.Descricao = "Visão geral Um componente-chave da construção de aplicações multi-plataforma é a capacidade de compartilhar um código por meio de vários projetos específicos da plataforma. No entanto, isso é complicado pelo fato de que diferentes plataformas co...";
+                news.Title = "Introdução às Bibliotecas de Classes Portáteis";
+                news.Description = "Visão geral Um componente-chave da construção de aplicações multi-plataforma é a capacidade de compartilhar um código por meio de vários projetos específicos da plataforma. No entanto, isso é complicado pelo fato de que diferentes plataformas co...";
 
                 lstNewses.Add(news);
 
                 news = new News();
 
                 news.Id = 3;
-                news.Titulo = "Crie apps para iOS usando o MAC in Cloud";
-                news.Descricao = "Muitos tem dificuldade de desenvolver apps para iOS pela necessidade de ter um MAC para compilar e testar as apps desenvolvidas com Xamarin. Agora a coisa ficou mais simples, o MAC in Cloud permite rodar o MAC na nuvem e você pode testar seus pr...";
+                news.Title = "Crie apps para iOS usando o MAC in Cloud";
+                news.Description = "Muitos tem dificuldade de desenvolver apps para iOS pela necessidade de ter um MAC para compilar e testar as apps desenvolvidas com Xamarin. Agora a coisa ficou mais simples, o MAC in Cloud permite rodar o MAC na nuvem e você pode testar seus pr...";
 
                 lstNewses.Add(news);
 
-                GerenciamentoNews gerenciamentoNews = new GerenciamentoNews(lstNewses);
-                tableNews.Source = gerenciamentoNews;
+                var tableSourceNews = new TableSourceNews(lstNewses);
+                tableNews.Source = tableSourceNews;
             }
         }
 
@@ -94,25 +100,35 @@ namespace ExerciseXamarinIOS
 
         #region RowSelected
 
-
-
-        public override bool ShouldPerformSegue(string segueIdentifier, NSObject sender)
-        {
-            if (segueIdentifier == "Detalhe")
-            {
-
-            }
-
-            return base.ShouldPerformSegue(segueIdentifier, sender);
-        }
+        //public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender)
+        //{
+        //    if (segue.Identifier == "DetalheSegue")
+        //    { // set in Storyboard
+        //        var navctlr = segue.DestinationViewController as DetalheViewController;
+        //        if (navctlr != null)
+        //        {
+        //            var source = tableNews.Source as TableSourceNews;
+        //            var rowPath = tableNews.IndexPathForSelectedRow;
+        //            var item = source.GetNews(rowPath.Row);
+        //            navctlr.SetNews(item); // to be defined on the TaskDetailViewController
+        //        }
+        //    }
+        //}
 
         public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender)
         {
-            //if (segue.Identifier == "DETALHE")
-            //{
-            //    Tela2 T2 = (Tela2)segue.DestinationViewController;
-            //    T2.ID = 222;
-            //}
+            if (segue.Identifier == "DetailSegue")
+            {
+                var detail = segue.DestinationViewController as DetailViewController;
+
+                if (detail != null)
+                {
+                    var sourceNews = tableNews.Source as TableSourceNews;
+                    var rowPathNews = tableNews.IndexPathForSelectedRow;
+                    var news = sourceNews.GetNews(rowPathNews.Row);
+                    detail.SetNews(news);
+                }
+            }
 
             base.PrepareForSegue(segue, sender);
         }

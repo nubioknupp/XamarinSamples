@@ -11,34 +11,26 @@ using UIKit;
 
 namespace ExerciseXamarinIOS
 {
-	[Register ("Celula")]
-	partial class Celula
+	[Register ("DetailViewController")]
+	partial class DetailViewController
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel lblID { get; set; }
+		UILabel lblDescription { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel lblTitulo { get; set; }
-
-		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UITextView txtDescricao { get; set; }
+		UILabel lblTitle { get; set; }
 
 		void ReleaseDesignerOutlets ()
 		{
-			if (lblID != null) {
-				lblID.Dispose ();
-				lblID = null;
+			if (lblDescription != null) {
+				lblDescription.Dispose ();
+				lblDescription = null;
 			}
-			if (lblTitulo != null) {
-				lblTitulo.Dispose ();
-				lblTitulo = null;
-			}
-			if (txtDescricao != null) {
-				txtDescricao.Dispose ();
-				txtDescricao = null;
+			if (lblTitle != null) {
+				lblTitle.Dispose ();
+				lblTitle = null;
 			}
 		}
 	}

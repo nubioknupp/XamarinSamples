@@ -11,18 +11,26 @@ using UIKit;
 
 namespace ExerciseXamarinIOS
 {
-	[Register ("WebViewController")]
-	partial class WebViewController
+	[Register ("Cell")]
+	partial class Cell
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UIWebView webBrowser { get; set; }
+		UILabel lblTitle { get; set; }
+
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		UITextView txtDescription { get; set; }
 
 		void ReleaseDesignerOutlets ()
 		{
-			if (webBrowser != null) {
-				webBrowser.Dispose ();
-				webBrowser = null;
+			if (lblTitle != null) {
+				lblTitle.Dispose ();
+				lblTitle = null;
+			}
+			if (txtDescription != null) {
+				txtDescription.Dispose ();
+				txtDescription = null;
 			}
 		}
 	}
