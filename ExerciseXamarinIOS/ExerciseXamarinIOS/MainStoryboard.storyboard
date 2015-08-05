@@ -88,7 +88,7 @@
                             </tableView>
                         </subviews>
                     </view>
-                    <navigationItem key="navigationItem" id="34">
+                    <navigationItem key="navigationItem" id="34" title="News">
                         <barButtonItem key="backBarButtonItem" title="Detail" id="801"/>
                     </navigationItem>
                     <connections>
@@ -134,7 +134,7 @@
                             </webView>
                         </subviews>
                     </view>
-                    <navigationItem key="navigationItem" id="339"/>
+                    <navigationItem key="navigationItem" id="339" title="Web"/>
                     <connections>
                         <outlet property="webBrowser" destination="469" id="name-outlet-469"/>
                     </connections>
