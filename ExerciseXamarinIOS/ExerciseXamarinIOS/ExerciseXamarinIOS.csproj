@@ -94,6 +94,7 @@
     </Compile>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="NewsDao.cs" />
     <Compile Include="TableSourceNews.cs" />
     <Compile Include="WebViewController.cs" />
     <Compile Include="WebViewController.designer.cs">
@@ -113,6 +114,9 @@
     <BundleResource Include="Resources\Default-568h%402x.png" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="SQLite">
+      <HintPath>..\Components\sqlite-net-1.0.8.3\lib\ios-unified\SQLite.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -125,6 +129,12 @@
     <BundleResource Include="Resources\NewsBanner.png" />
     <BundleResource Include="Resources\NewsBanner%402.png" />
     <BundleResource Include="Resources\NewsBanner%403.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="sqlite-net">
+      <Visible>False</Visible>
+      <Version>1.0.8.3</Version>
+    </XamarinComponentReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
