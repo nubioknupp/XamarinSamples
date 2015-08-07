@@ -16,21 +16,13 @@ namespace ExerciseXamarinIOS
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel lblDescription { get; set; }
-
-		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel lblTitle { get; set; }
+		UITextView txtDescription { get; set; }
 
 		void ReleaseDesignerOutlets ()
 		{
-			if (lblDescription != null) {
-				lblDescription.Dispose ();
-				lblDescription = null;
-			}
-			if (lblTitle != null) {
-				lblTitle.Dispose ();
-				lblTitle = null;
+			if (txtDescription != null) {
+				txtDescription.Dispose ();
+				txtDescription = null;
 			}
 		}
 	}

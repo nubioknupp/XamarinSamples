@@ -122,6 +122,9 @@
     <Content Include="Entitlements.plist" />
     <BundleResource Include="Resources\News-32.png" />
     <BundleResource Include="Resources\Safari-32.png" />
+    <BundleResource Include="Resources\NewsBanner.png" />
+    <BundleResource Include="Resources\NewsBanner%402.png" />
+    <BundleResource Include="Resources\NewsBanner%403.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

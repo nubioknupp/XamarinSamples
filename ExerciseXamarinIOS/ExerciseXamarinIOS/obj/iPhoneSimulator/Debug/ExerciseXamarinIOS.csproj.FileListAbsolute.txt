@@ -12,3 +12,6 @@ D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulat
 D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\ExerciseXamarinIOS.csprojResolveAssemblyReference.cache
 D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\ExerciseXamarinIOS.exe
 D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\ExerciseXamarinIOS.pdb
+D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\NewsBanner.png
+D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\NewsBanner@2.png
+D:\GitHub\XamarinSamples\ExerciseXamarinIOS\ExerciseXamarinIOS\obj\iPhoneSimulator\Debug\NewsBanner@3.png
